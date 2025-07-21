@@ -53,7 +53,7 @@ fun HomeScreen(viewModel: HomeViewModel = hiltViewModel()) {
                             viewModel.saveToFavorites(it)
                         }
                     }
-                    )
+                )
             }
         }
     }
